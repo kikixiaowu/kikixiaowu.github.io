@@ -21,7 +21,7 @@
       <link href="2021/0101undefined.html"/>
       <url>2021/0101undefined.html</url>
       
-        <content type="html"><![CDATA[<h1 id="C-回溯法"><a href="#C-回溯法" class="headerlink" title="C++回溯法"></a>C++回溯法</h1><h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h3 id="DFS–图的深度优先遍历"><a href="#DFS–图的深度优先遍历" class="headerlink" title="DFS–图的深度优先遍历"></a>DFS–图的深度优先遍历</h3><p><strong>一条路走到黑</strong><br>①邻接矩阵：<br> 有通路则为1,无通路则0。稠密图数组visited[i]：辅助数组（初始化为0，若访问过则为1）<br> 每一个顶点都要从头扫描该顶点的所在行（时间复杂度O（n ^2））<br>②邻接表：<br> 存在2e个表结点，但只需扫描e个结点即可完成遍历，加上访问n个头结点的时间。<br> 时间复杂度O（n+e）稀疏图</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="C-回溯法"><a href="#C-回溯法" class="headerlink" title="C++回溯法"></a>C++回溯法</h1><h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h3 id="DFS–图的深度优先遍历"><a href="#DFS–图的深度优先遍历" class="headerlink" title="DFS–图的深度优先遍历"></a>DFS–图的深度优先遍历</h3><p><strong>一条路走到黑</strong><br>①邻接矩阵：<br> 有通路则为1,无通路则0。稠密图数组visited[i]：辅助数组（初始化为0，若访问过则为1）<br> 每一个顶点都要从头扫描该顶点的所在行（时间复杂度O（n ^2））<br>②邻接表：<br> 存在2e个表结点，但只需扫描e个结点即可完成遍历，加上访问n个头结点的时间。<br> 时间复杂度O（n+e）稀疏图</p><h3 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h3><p>回溯法(探索与回溯法)是一种选优搜索法，又称为试探法，按选优条件向前搜索，以达到目标。但当探索到某一步时，发现原先选择并不优或达不到目标，就退回一步重新选择，这种走不通就退回再走的技术为回溯法，而满足回溯条件的某个状态的点称为”回溯点”。</p>]]></content>
       
       
       
